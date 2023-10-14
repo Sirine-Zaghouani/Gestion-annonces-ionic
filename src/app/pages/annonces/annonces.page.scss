@@ -1,0 +1,39 @@
+
+.custom-fab-button {
+    --background: #0097B2; /* Change to your desired background color */
+    color: #fff; /* Change to your desired icon color */
+    font-size: 24px; /* Change to your desired font size */
+    width: 50px; /* Change to your desired width */
+    height: 50px; /* Change to your desired height */
+  }
+  
+  .custom-icon {
+    font-size: 30px; /* Change to your desired icon size */
+  }
+.ion-tollbar{
+    --background: #0097B2;
+}
+.custom-toolbar {
+    --background: #0097B2; /* Change to your desired background color */
+    color: #fff; /* Change to your desired text color */
+  }
+  ion-card{
+    --ion-background-color:transparent;
+    box-shadow: none !important
+}
+
+.custom-card {
+  border: 2px solid #ccc; /* Adjust the border width and color */
+  border-radius: 10px; /* Adjust the border radius for rounded corners */
+  overflow: hidden; /* Ensure the border doesn't overlap with the content */
+}
+
+/* In your CSS file (styles.css) */
+.custom-card img {
+  width: 50%; /* Ajustez la largeur de l'image en pourcentage ou en pixels */
+  max-height: 150px; /* Ajustez la hauteur maximale de l'image en pixels */
+  display: block; /* Centre l'image horizontalement */
+  margin: auto; /* Centre l'image horizontalement */
+  object-fit: cover; /* Assurez-vous que l'image conserve son ratio d'aspect tout en remplissant la zone spécifiée */
+}
+
